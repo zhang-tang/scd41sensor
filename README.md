@@ -1,31 +1,28 @@
 
-> 在 [https://zhang-tang.github.io/scd41sensor/](https://zhang-tang.github.io/scd41sensor/) 打开此页面
+# SCD41 Infrared CO2 Sensor
 
-## 用作扩展
+## Introduction
 
-此仓库可以作为 **插件** 添加到 MakeCode 中。
+CO2 is a key factor for indoor air quality as high levels compromise human cognitive performance and well-being.
 
-* 打开 [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* 点击 **新项目**
-* 点击齿轮图标菜单下的 **扩展**
-* 搜索 **https://github.com/zhang-tang/scd41sensor** 并导入
+This Gravity: SCD41 CO2 sensor is based on the SCD41 miniature CO2 sensor from Sensirion. SCD41 builds on the photoacoustic NDIR sensing principle and Sensirion’s patented PAsens® and CMOSens® technology to offer high accuracy at an unmatched price and the smallest form factor. On-chip signal compensation is realized with the built-in temperature and humidity sensor, while temperature and humidity data outputs are also available.
 
-## 编辑此项目 ![Build status badge](https://github.com/zhang-tang/scd41sensor/workflows/MakeCode/badge.svg)
+SCD41 sensor detects the amount of energy that is absorbed by CO2 molecules. When pulsing the infrared emitter, CO2 molecules absorb infrared light periodically. This causes additional molecular vibration resulting in a pressure wave inside the measurement chamber. The higher the CO2 concentration, the more light is absorbed, and thus the greater the amplitude of this acoustic wave becomes. A microphone inside the gas chamber measures this, from which the CO2 concentration can then be calculated.
 
-在 MakeCode 中编辑此仓库。
+[Purchase link](https://www.dfrobot.com/product-2646.html)
 
-* 打开 [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* 点击 **导入**，然后点击 **导入 URL**
-* 粘贴 **https://github.com/zhang-tang/scd41sensor** 并点击导入
+[Tutorial Links](https://wiki.dfrobot.com/SKU_SEN0536_Gravity_SCD41_Infrared_CO2_Sensor)
 
-## Blocks preview
 
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
+## Basic usage
 
-![A rendered view of the blocks](https://github.com/zhang-tang/scd41sensor/raw/master/.github/makecode/blocks.png)
 
-#### 元数据（用于搜索、渲染）
+## License
+
+MIT
+
+Copyright (c) 2020, microbit/micropython Chinese community  
+
+## Supported targets
 
 * for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
